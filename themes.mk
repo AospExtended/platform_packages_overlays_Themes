@@ -88,3 +88,14 @@ PRODUCT_PACKAGES += \
     IconShapeCloudyOverlay \
     IconShapeCylindricalOverlay \
     IconShapeStretchedOverlay
+
+# UI Styles
+PRODUCT_PACKAGES += \
+    SystemBlackThemeOverlay \
+    SettingsBlackThemeOverlay \
+    SystemUIBlackThemeOverlay \
+    FilesBlackThemeOverlay \
+    SystemExtendedThemeOverlay \
+    SettingsExtendedThemeOverlay \
+    SystemUIExtendedThemeOverlay \
+    FilesExtendedThemeOverlay
