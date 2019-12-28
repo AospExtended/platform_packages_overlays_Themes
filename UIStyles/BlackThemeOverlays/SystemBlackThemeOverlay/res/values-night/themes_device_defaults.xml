@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.DeviceDefault.Resolver" parent="Theme.DeviceDefault.ResolverCommon">
+        <item name="colorBackgroundFloating">#FF000000</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.Settings.DialogBase" parent="Theme.Material.BaseDialog">
+        <item name="colorBackgroundFloating">#FF000000</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.Settings.Dialog" parent="Theme.DeviceDefault.Settings.DialogBase">
+        <item name="colorBackgroundFloating">#FF000000</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.Material">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@*android:style/Theme.Material" >
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.FixedSize" parent="@*android:style/Theme.Material" >
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+	
+    <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@*android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:colorBackgroundFloating">#FF171717</item>
+    </style>
+
+</resources>
