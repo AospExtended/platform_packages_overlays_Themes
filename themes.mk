@@ -12,14 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-# Overlay ThemePicker to use our ThemeStub
-DEVICE_PACKAGE_OVERLAYS += \
-    packages/overlays/Themes/overlays
-
-PRODUCT_PACKAGES += \
-   AexThemeStub
-
 # Accents
 PRODUCT_PACKAGES += \
     AccentColorAmberOverlay \
@@ -44,7 +36,9 @@ PRODUCT_PACKAGES += \
     AccentColorRedOverlay \
     AccentColorSpaceOverlay \
     AccentColorTealOverlay \
-    AccentColorYellowOverlay
+    AccentColorYellowOverlay \
+	AccentColorExtendedGreenOverlay \
+	AccentColorElegantGreenOverlay
 
 # Fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
@@ -80,3 +74,10 @@ PRODUCT_PACKAGES += \
 	FontSamsungOneSourceOverlay \
 	FontSonySketchSourceOverlay \
 	FontSurferSourceOverlay
+
+# Themes
+PRODUCT_PACKAGES += \
+    PitchBlackSystemOverlay \
+    PitchBlackSystemUIOverlay \
+    ExtendedUiSystemOverlay \
+    ExtendedUiSystemUIOverlay
