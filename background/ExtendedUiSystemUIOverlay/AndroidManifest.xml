@@ -1,7 +1,6 @@
 <!--
 /**
  * Copyright (c) 2019, The Android Open Source Project
- *                     Bootleggers ROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +15,11 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.theme.extendedui.systemui"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.accent_color" android:priority="1"/>
 
-    <!-- DEFAULT VALUES HAHA YES, maybe switch to an actual overlay later? -->
-    <string name="theme_name_default">Default</string>
-    <string name="theme_title_default">@string/theme_name_default</string>
-    <string name="theme_wallpaper_title_default">Default Wallpaper</string>
-    <string name="theme_wallpaper_attribution_default">edited by Androbuddy</string>
-
-</resources>
+    <application android:label="ExtendedUiSystemUI" android:hasCode="false"/>
+</manifest>
