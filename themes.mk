@@ -133,6 +133,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
      NavigationBarModeGesturalOverlayFS
 
+# Navbar styles
+PRODUCT_PACKAGES += \
+    NavbarAndroidOverlay \
+    NavbarAsusOverlay \
+    NavbarMotoOverlay \
+    NavbarNexusOverlay \
+    NavbarOldOverlay \
+    NavbarOnePlusOverlay \
+    NavbarOneUiOverlay \
+    NavbarSammyOverlay \
+    NavbarTecnoCamonOverlay
+
 # Rounded Styles
 #PRODUCT_PACKAGES += \
 #    StockRounded \
