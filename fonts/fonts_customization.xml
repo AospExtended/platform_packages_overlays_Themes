@@ -147,6 +147,9 @@
     <family customizationType="new-named-family" name="kellyslab">
         <font weight="300" style="normal">KellySlab-Regular.ttf</font>
     </family>
+    <family customizationType="new-named-family" name="libelsuit">
+        <font weight="400" style="normal">LibelSuit.ttf</font>
+    </family>
     <family customizationType="new-named-family" name="mittelschrift">
         <font weight="300" style="normal">din1451alt.ttf</font>
     </family>

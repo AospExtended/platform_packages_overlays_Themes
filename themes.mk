@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     FontBigNoodle \
     FontBikoHanken \
     FontMittelschrift \
+    FontLibelSuit \
     FontPissel \
     FontReemKufi \
     FontRoboto \
