@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentColorYellowOverlay \
     AccentColorExtendedGreenOverlay \
-    AccentColorElegantGreenOverlay
+    AccentColorElegantGreenOverlay \
+    AccentPacleggersWarmthOverlay
 
 # Fonts
 LOCAL_PATH := packages/overlays/Themes/fonts
@@ -66,7 +67,8 @@ PRODUCT_PACKAGES += \
     FontRosemarySourceOverlay \
     FontSamsungOneSourceOverlay \
     FontSonySketchSourceOverlay \
-    FontSurferSourceOverlay
+    FontSurferSourceOverlay \
+    FontJakartaPlusOverlay
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
@@ -84,7 +86,10 @@ PRODUCT_PACKAGES += \
     SystemUIElegantThemeOverlay \
     AndroidExtendedThemeOverlay \
     SettingsExtendedThemeOverlay \
-    SystemUIExtendedThemeOverlay
+    SystemUIExtendedThemeOverlay \
+    AndroidPacleggersThemeOverlay \
+    SettingsPacleggersThemeOverlay \
+    SystemUIPacleggersThemeOverlay
 
 # Stub
 PRODUCT_PACKAGES += \

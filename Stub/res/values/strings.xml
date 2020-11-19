@@ -55,4 +55,16 @@
 	<string name="theme_overlay_icon_settings_extended">com.android.theme.icon_pack.sam.settings</string>
 	<string name="theme_overlay_icon_sysui_extended">com.android.theme.icon_pack.sam.systemui</string>
 	<string name="theme_overlay_shape_extended">com.android.theme.icon.pebble</string>
+
+	<!-- Pacleggers Theme -->
+	<string name="theme_name_pacleggers">PACLEGGERS</string>
+	<string name="theme_title_pacleggers">@string/theme_name_pacleggers</string>
+	<string name="theme_overlay_color_pacleggers">com.android.theme.color.pacleggers</string>
+	<string name="theme_overlay_font_pacleggers">com.android.theme.font.jakartaplus</string>
+	<string name="theme_overlay_style_android_pacleggers">com.android.system.theme.pacleggers.android</string>
+	<string name="theme_overlay_icon_android_pacleggers">com.android.theme.icon_pack.filled.android</string>
+	<string name="theme_overlay_icon_launcher_pacleggers">com.android.theme.icon_pack.filled.launcher</string>
+	<string name="theme_overlay_icon_settings_pacleggers">com.android.theme.icon_pack.filled.settings</string>
+	<string name="theme_overlay_icon_sysui_pacleggers">com.android.theme.icon_pack.filled.systemui</string>
+	<string name="theme_overlay_shape_pacleggers">com.android.theme.icon.cylindrical</string>
 </resources>
