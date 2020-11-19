@@ -81,6 +81,12 @@
     <family customizationType="new-named-family" name="jacklane">
         <font weight="300" style="normal">JackLane-Regular.ttf</font>
     </family>
+    <family customizationType="new-named-family" name="jakarta-plus-medium">
+        <font weight="300" style="normal">JakartaPlus-Medium.ttf</font>
+    </family>
+    <family customizationType="new-named-family" name="jakarta-plus">
+        <font weight="300" style="normal">JakartaPlus-Regular.ttf</font>
+    </family>
     <family customizationType="new-named-family" name="metropolis1920">
         <font weight="300" style="normal">Metropolis1920-Regular.ttf</font>
     </family>
