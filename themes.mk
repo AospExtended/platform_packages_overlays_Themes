@@ -81,6 +81,13 @@ PRODUCT_PACKAGES += \
     AndroidElegantThemeOverlay \
     AndroidExtendedThemeOverlay
 
+# Switch styles
+PRODUCT_PACKAGES += \
+    SwitchAOSP \
+    SwitchTelegram \
+    SwitchMD2 \
+    SwitchOOS
+
 # Stub
 PRODUCT_PACKAGES += \
     AEXThemesStub
