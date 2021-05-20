@@ -81,5 +81,9 @@ PRODUCT_PACKAGES += \
     SystemExtendedThemeOverlay \
     SystemElegantThemeOverlay
 
+# Stub
+PRODUCT_PACKAGES += \
+    AEXThemesStub
+
 # Plugins
 -include packages/apps/PotatoPlugins/plugins.mk
