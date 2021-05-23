@@ -76,9 +76,15 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    SystemBlackThemeOverlay \
-    SystemExtendedThemeOverlay \
-    SystemElegantThemeOverlay
+    AndroidBlackThemeOverlay \
+    SettingsBlackThemeOverlay \
+    SystemUIBlackThemeOverlay \
+    AndroidElegantThemeOverlay \
+    SettingsElegantThemeOverlay \
+    SystemUIElegantThemeOverlay \
+    AndroidExtendedThemeOverlay \
+    SettingsExtendedThemeOverlay \
+    SystemUIExtendedThemeOverlay
 
 # Stub
 PRODUCT_PACKAGES += \
