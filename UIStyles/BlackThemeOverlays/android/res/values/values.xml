@@ -16,8 +16,13 @@
  * limitations under the License.
  */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+    <style name="Theme.DeviceDefault.QuickSettings" parent="android:Theme.DeviceDefault.Light">
+        <!-- QS panel background -->
+        <item name="*android:colorBackgroundFloating">@*android:color/background_floating_material_light</item>
 
-    <string name="system_overlay_extended">Extended UI</string>
-
+        <!-- volume background -->
+        <item name="*android:panelColorBackground">@*android:color/background_floating_material_light</item>
+    </style>
 </resources>
+

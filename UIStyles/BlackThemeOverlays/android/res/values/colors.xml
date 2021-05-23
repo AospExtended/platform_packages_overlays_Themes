@@ -17,9 +17,27 @@
 
 <resources>
 
-    <color name="primary_device_default_dark">#FF242038</color>
-    <color name="secondary_device_default_dark">#FF38344A</color>
-    <color name="tertiary_device_default_dark">#FF2b283b</color>
+    <!-- Light -->
+    <color name="primary_device_default_light">@android:color/white</color>
+    <color name="secondary_device_default_light">#FFD7C9FF</color>
+    <color name="tertiary_device_default_light">#FFF1EDFF</color>
+	
+    <color name="primary_material_light">@color/primary_device_default_light</color>
+    <color name="primary_light_material_light">@color/primary_device_default_light</color>
+    <color name="primary_light_material_settings">@color/primary_device_default_light</color>
+    <color name="primary_light_device_default_light">@color/primary_device_default_light</color>
+    <color name="primary_light_device_default_settings">@color/primary_device_default_light</color>
+
+    <color name="background_floating_device_default_light">@color/secondary_device_default_light</color>
+    <color name="background_floating_material_light">@color/secondary_device_default_light</color>
+    <color name="background_material_light">@color/primary_device_default_light</color>
+
+    <color name="notification_material_background_color">@color/background_material_light</color>
+
+    <!-- Dark -->
+    <color name="primary_device_default_dark">@android:color/black</color>
+    <color name="secondary_device_default_dark">#FF171717</color>
+    <color name="tertiary_device_default_dark">#FF212121</color>
 	
     <color name="primary_material_dark">@color/primary_device_default_dark</color>
     <color name="primary_material_settings">@color/primary_device_default_dark</color>
@@ -32,8 +50,7 @@
     <color name="secondary_device_default_settings">@color/secondary_device_default_dark</color>
     <color name="tertiary_device_default_settings">@color/tertiary_device_default_dark</color>
 
-    <color name="background_floating_device_default_dark">@color/primary_device_default_dark</color>
-    <color name="background_floating_material_dark">@color/primary_device_default_dark</color>
+    <color name="background_floating_device_default_dark">@color/secondary_device_default_dark</color>
+    <color name="background_floating_material_dark">@color/secondary_device_default_dark</color>
     <color name="background_material_dark">@color/primary_device_default_dark</color>
-
 </resources>
