@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
- * Copyright (c) 2018, The Android Open Source Project
+ * Copyright (c) 2017, The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,12 +16,13 @@
  * limitations under the License.
  */
 -->
+<resources>
+    <style name="Theme.DeviceDefault.QuickSettings" parent="android:Theme.DeviceDefault.Light">
+        <!-- QS panel background -->
+        <item name="*android:colorBackgroundFloating">@*android:color/background_floating_material_light</item>
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.system.theme.extended"
-    android:versionCode="1"
-    android:versionName="1.0">
-    <overlay android:targetPackage="android" android:category="android.theme.customization.theme_style" android:priority="1"/>
+        <!-- volume background -->
+        <item name="*android:panelColorBackground">@*android:color/background_floating_material_light</item>
+    </style>
+</resources>
 
-    <application android:label="@string/system_overlay_extended" android:hasCode="false"/>
-</manifest>
