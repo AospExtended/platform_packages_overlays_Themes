@@ -91,6 +91,15 @@ PRODUCT_PACKAGES += \
     SwitchMD2 \
     SwitchOOS
 
+# Rounded Styles
+PRODUCT_PACKAGES += \
+    StockRounded \
+    NoneRounded \
+    SlightRounded \
+    MediumRounded \
+    HighRounded \
+    ExtremeRounded
+
 # Stub
 PRODUCT_PACKAGES += \
     AEXThemesStub
