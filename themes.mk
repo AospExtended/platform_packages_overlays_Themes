@@ -63,6 +63,7 @@ PRODUCT_PACKAGES += \
     FontComicSansSourceOverlay \
     FontCoolstorySourceOverlay \
     FontLGSmartGothicSourceOverlay \
+    FontMontserratSourceOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateSource \
     FontRosemarySourceOverlay \
