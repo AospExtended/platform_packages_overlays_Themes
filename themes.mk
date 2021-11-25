@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay
 
+# Navbar
+PRODUCT_PACKAGES += \
+     NavigationBarModeGesturalOverlayFS
+
 # Rounded Styles
 #PRODUCT_PACKAGES += \
 #    StockRounded \
