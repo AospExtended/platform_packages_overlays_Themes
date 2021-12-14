@@ -61,6 +61,12 @@ PRODUCT_PACKAGES += \
     IconPackAcherusAndroidOverlay \
     IconPackAcherusSystemUIOverlay
 
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylindricalOverlay \
+    IconShapeStretchedOverlay
+
 # Rounded Styles
 #PRODUCT_PACKAGES += \
 #    StockRounded \
