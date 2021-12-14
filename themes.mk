@@ -91,6 +91,9 @@ PRODUCT_PACKAGES += \
 
 # Icon shapes
 PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylindricalOverlay \
+    IconShapeStretchedOverlay \
     IconShapePebbleOverlay \
     IconShapeRoundedRectOverlay \
     IconShapeSquircleOverlay \
