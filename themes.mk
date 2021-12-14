@@ -54,6 +54,13 @@ PRODUCT_PACKAGES += \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay
 
+# Icons Packs
+PRODUCT_PACKAGES += \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSSystemUIOverlay \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusSystemUIOverlay
+
 # Rounded Styles
 #PRODUCT_PACKAGES += \
 #    StockRounded \
