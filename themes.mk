@@ -136,3 +136,7 @@ PRODUCT_PACKAGES += \
 
 # Plugins
 #-include packages/apps/PotatoPlugins/plugins.mk
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
