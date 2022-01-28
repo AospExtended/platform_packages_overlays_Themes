@@ -1,0 +1,10 @@
+runtime_resource_overlay {
+
+    name: "NavbarOneUiOverlay",
+    theme: "OneUiNavbar",
+    sdk_version: "current",
+    certificate: "platform",
+    product_specific: true,
+    privileged: false,
+
+}

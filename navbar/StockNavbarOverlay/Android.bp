@@ -1,0 +1,10 @@
+runtime_resource_overlay {
+
+    name: "NavbarStockOverlay",
+    theme: "StockNavbar",
+    sdk_version: "current",
+    certificate: "platform",
+    product_specific: true,
+    privileged: false,
+
+}
