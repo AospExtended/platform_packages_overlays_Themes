@@ -13,8 +13,8 @@
 // limitations under the License.
 
 runtime_resource_overlay {
-    name: "NavbarOnePlusOverlay",
-    theme: "OnePlusNavbar",
-    sdk_version: "current",
+    name: "NavbarNexusOverlay",
     product_specific: true,
+    sdk_version: "current",
+    theme: "NavbarNexus",
 }
