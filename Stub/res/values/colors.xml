@@ -18,16 +18,16 @@
 -->
 <resources>
 
-    <string name="app_name">AospExtended Themes</string>
+    <!-- Color Primary is used for Accent -->
+    <color name="color_primary_bundle1">#0a8758</color>
+    <color name="color_primary_bundle2">#746bc1</color>
+    <color name="color_primary_bundle3">#a66800</color>
+    <color name="color_primary_default">#ffffff</color>
 
-    <string name="bundle1_color_name">Carbon</string>
-    <string name="bundle2_color_name">Paper</string>
-    <string name="bundle3_color_name">Sun</string>
-    <string name="default_color_name">Classic</string>
-
-    <string name="bundle_name_default">@string/default_color_name</string>
-    <string name="bundle_name_bundle1">@string/bundle1_color_name</string>
-    <string name="bundle_name_bundle2">@string/bundle2_color_name</string>
-    <string name="bundle_name_bundle3">@string/bundle3_color_name</string>
+    <!-- Color Secondary is used for System Colors -->
+    <color name="color_secondary_bundle1">#0a8758</color>
+    <color name="color_secondary_bundle2">#746bc1</color>
+    <color name="color_secondary_bundle3">#a66800</color>
+    <color name="color_secondary_default">#1a73e8</color>
 
 </resources>
